@@ -2,7 +2,7 @@ from PIL import Image
 import numpy as np
 
 # Load the image
-image_path = "python.jpg"  # Replace with your image path
+image_path = "python.jpg" 
 image = Image.open(image_path)
 
 # Convert the image to a NumPy array (matrix)
